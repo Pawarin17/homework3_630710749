@@ -104,6 +104,8 @@ class _HomePageState extends State<HomePage> {
                       });
 
                       _toiletNameController.clear();
+                      _toiletPointController.clear();
+                      _toiletDistanceController.clear();
                     },
                     child: Text('ADD'),
                   ),
